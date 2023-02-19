@@ -1,0 +1,35 @@
+body{
+margin: 0;
+
+
+text-align: center;
+
+background-color: rgb(128, 233, 128);
+height: 100vh;
+}
+
+
+
+
+#btn{
+    width: 300px;
+    height: 200px;
+    background-color: rgb(74, 157, 74);
+    border: none;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 700;
+    color: gray;
+}
+.app{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,300px);
+    gap: 40px;
+    justify-content: center;
+    padding: 50px;
+}
+#textarea{
+    background-color:lightgreen;
+    height: 180px;
+    color: blue;
+}
